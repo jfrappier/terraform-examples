@@ -1,0 +1,6 @@
+terraform {
+}
+
+data "http" "ipinfo" {
+  url = "https://ipinfo.io./ip"
+}
